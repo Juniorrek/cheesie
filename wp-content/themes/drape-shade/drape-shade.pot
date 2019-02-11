@@ -1,0 +1,40 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Drape Shade\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-08 15:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#. Name of the theme
+msgid "Drape Shade"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Drape Shade is a clean and masonry gutenberg ready dark schemed child theme "
+"of Drape. Theme Demo: http://demo.sharkthemes.com/drape-shade/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://sharkthemes.com/"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Playfair Display, translate this to 'off'. Do not translate into your own language.
+#: functions.php:80
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#. Author of the theme
+msgid "Shark Themes"
+msgstr ""

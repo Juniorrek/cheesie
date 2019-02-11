@@ -1,0 +1,139 @@
+/**
+Theme Name: Drape Shade
+Author: Shark Themes
+Author URI: http://sharkthemes.com/
+Version: 1.0.2
+Template: drape
+Text Domain: drape-shade
+Description: Drape Shade is a clean and masonry gutenberg ready dark schemed child theme of Drape. Theme Demo: http://demo.sharkthemes.com/drape-shade/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: translation-ready, custom-header, custom-background, theme-options, custom-menu, threaded-comments, featured-images, footer-widgets, left-sidebar, right-sidebar, full-width-template, two-columns, three-columns, grid-layout, custom-logo, blog, portfolio, photography
+
+Drape Shade is a child theme of Drape WordPress Theme, Copyright 2019 Shark Themes
+Drape Shade is distributed under the terms of the GNU General Public License v3
+
+Drape WordPress Theme, Copyright 2019 Shark Themes
+Drape is distributed under the terms of the GNU General Public License v3
+*/
+
+body {
+	background-color: #272c30;
+}
+
+.site-title a,
+.main-navigation a:hover, 
+.main-navigation a:focus,
+span.posted-on a:hover, 
+span.byline .author a:hover,
+.cat-links a:hover,
+#reply-title, 
+.comments-title,
+h1.page-title,
+.single-post .cat-links a:hover,
+.single-post .entry-meta span a:hover,
+.single-post span.byline .author a:hover {
+	color: #b09a68;
+}
+
+.cat-links a,
+span.posted-on a, 
+span.byline .author a,
+.post-navigation a, 
+.posts-navigation a,
+.custom-header-content a.btn,
+.blog-posts-wrapper article .post-wrapper .entry-container .entry-content p {
+	color:  #272c30;
+}
+
+.navigation.pagination svg,
+.main-navigation svg {
+	fill: #fff;
+}
+
+a,
+p,
+.reply a,
+.single-post .cat-links, 
+.single-post .cat-links a,
+.site-description,
+.main-navigation a,
+#secondary .widget-title, 
+#secondary .widgettitle,
+#secondary .widget ul li a,
+.widget_recent_entries span.post-date,
+#respond label,
+.comment-content p,
+.comment-meta .url, 
+.comment-meta .fn,
+#filter-posts ul li:not(:first-child):before,
+.single-post .entry-meta span, 
+.single-post .entry-meta span a,
+.single-post span.byline .author a {
+	color: #fff;
+}
+
+.main-navigation a {
+	font-weight: 500;
+}
+
+.custom-header-content h2 a {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.custom-header-content-wrapper .overlay {
+	opacity: 0.4;
+}
+
+.blog-posts-wrapper article .post-wrapper .entry-container,
+.blog-posts-wrapper article.no-post-thumbnail .post-wrapper .entry-container {
+	background-color: #eee;
+}
+
+.single-post .entry-meta span.tags-links a,
+#respond input[type="submit"] {
+	border-color: #fff;
+}
+
+.backtotop,
+.reply a,
+.pagination .page-numbers.current,
+.widget_search form.search-form button.search-submit,
+.widget_search form.search-form button.search-submit:hover {
+	background-color: #b09a68;
+}
+
+.pagination .page-numbers.current {
+	border-color: #b09a68;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+.site-title a {
+    font-family: 'Playfair Display', sans-serif !important;
+ }
+
+ @media screen and (max-width: 1023px) {
+ 	#masthead {
+ 		position: relative;
+ 	}
+
+ 	.main-navigation a:hover, 
+ 	.main-navigation a:focus, 
+ 	.main-navigation ul.menu li.current-menu-item > a {
+ 		color: #b09a68;
+ 	}
+
+ 	.main-navigation a {
+ 		color: #272c30;
+ 	}
+}
